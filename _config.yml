@@ -1,0 +1,28 @@
+title: Pau Muñoz Pairet # name of the site
+author: Pau Muñoz Pairet # name of site's author
+email: paum1@protonmail.com # email of site's author
+url: https://paumnz.github.io # root address of the site
+baseurl: "" # leave blank as the site doesn't use a subpath
+description: > # description of the site (multiple lines allowed)
+  The personal website of Pau Muñoz Pairet: researcher, entrepreneur, and expert in the impact of disruptive technologies on contemporary conflicts.
+
+permalink: /:slug.html
+
+favicon: "logo.png" # name+extension of favicon (which must be placed in the root folder)
+
+theme: no-style-please # if you are using GitHub Pages, keep it as remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: "Back to Home" # customize text for homepage link in post layout
+  date_format: "%B %d, %Y" # e.g., "December 6, 2024" for better readability
+  show_description: true # show blog description on home page
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-sitemap

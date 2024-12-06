@@ -1,0 +1,40 @@
+entries:
+  - title: About Me
+    entries:
+      - title: Pau Muñoz Pairet
+        description: Born in 1993, I am a computer engineer and political scientist. I hold two PhDs in Strategic Studies from the University of Salamanca and Artificial Intelligence from the Autonomous University of Madrid, I focus my research on the impact of disruptive technologies in contemporary conflicts, emphasizing the competition in the information domain. Throughout my career, I have led intelligence analysis teams in defense organizations, combining technical and strategic expertise to study and apply intelligence in complex scenarios.
+        photo: /assets/img/paufoto.jpeg
+
+  - title: Projects
+    entries:
+      - title: Scholarly Work
+        url: /projects#scholarly
+      - title: Tech & Startups
+        url: /projects#tech
+      - title: Books & Writing
+        url: /projects#books
+
+  - title: Publications
+    entries:
+      - title: Google Scholar
+        url: https://scholar.google.com/citations?user=s8oinagAAAAJ
+      - title: Selected Papers
+        url: /publications#selected-papers
+
+  - title: Blog
+    url: /blog
+
+  - title: Social
+    entries:
+      - title: Twitter
+        url: https://x.com/algorithmind
+      - title: GitHub
+        url: https://github.com/paumnz
+
+  - title: RSS
+    url: /feed.xml
+
+  - title: Contact
+    entries:
+      - title: Get in Touch
+        description: Feel free to reach out to me via email at paum1@protonmail.com or connect with me on Twitter.
