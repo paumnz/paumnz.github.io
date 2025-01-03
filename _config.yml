@@ -1,28 +1,47 @@
-title: Pau Muñoz Pairet # name of the site
-author: Pau Muñoz Pairet # name of site's author
-email: paum1@protonmail.com # email of site's author
-url: https://paumnz.github.io # root address of the site
-baseurl: "" # leave blank as the site doesn't use a subpath
-description: > # description of the site (multiple lines allowed)
-  The personal website of Pau Muñoz Pairet: researcher, entrepreneur, and expert in the impact of disruptive technologies on contemporary conflicts.
+title: Pau Muñoz
+email: contact@paumnz.com
+description: pau's thoughts
+baseurl: ""
+url: "https://paumnz.com"
+github_username:  paumnz
 
 permalink: /:slug.html
 
-favicon: "logo.png" # name+extension of favicon (which must be placed in the root folder)
+favicon: "favicon.png"
+goat_counter: "Pau Muñoz" # put your GoatCounter name if you want to use GoatCounter analytics
 
-theme: no-style-please # if you are using GitHub Pages, keep it as remote_theme: riggraz/no-style-please
+# Build settings
+remote_theme: riggraz/no-style-please
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: "Back to Home" # customize text for homepage link in post layout
-  date_format: "%B %d, %Y" # e.g., "December 6, 2024" for better readability
-  show_description: true # show blog description on home page
-
-sass:
-  style: :compressed
+  appearance: "light"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jemoji
-  - jekyll-sitemap
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

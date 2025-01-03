@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Pau Muñoz</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Pau Muñoz" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="pau’s thoughts" />
+<meta property="og:description" content="pau’s thoughts" />
+<link rel="canonical" href="http://localhost:4000/newsletter" />
+<meta property="og:url" content="http://localhost:4000/newsletter" />
+<meta property="og:site_name" content="Pau Muñoz" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Pau Muñoz" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"pau’s thoughts","headline":"Pau Muñoz","url":"http://localhost:4000/newsletter"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Pau Muñoz" /><link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="light">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/">..</a><h1></h1>
+
+<hr data-content="keep in touch" />
+
+<form style="padding:3px;text-align:center;" onsubmit="sendEmail(); return false;">
+  <label for="tlemail">newsletter:</label>
+  <input type="text" style="width:140px" name="email" id="tlemail" placeholder="your email" />
+  <input type="submit" value="subscribe" />
+  <br />
+  <small>
+    get future posts in your inbox (or use <a href="/feed.xml">rss feed</a>)
+  </small>
+</form>
+
+<script>
+function sendEmail() {
+  var email = document.getElementById('tlemail').value;
+  var subject = 'Subscription request to riggraz\'s newsletter';
+  var body = 'Hi Riccardo!\n\nI want to subscribe to the riggraz newsletter. My email is: ' + email + '\n\nThank you.';
+  window.location.href = 'mailto:riccardo.graziosi97@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+}
+</script>
+
+
+      </div>
+    </main>
+  </body>
+</html>
